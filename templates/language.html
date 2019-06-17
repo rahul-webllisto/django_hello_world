@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Languages</title>
+</head>
+<body>
+    {% for language in languages %}
+        {{ language.name  }}
+        {{ language.country }}
+        <br><br>
+    {% endfor %}    
+</body>
+</html>
